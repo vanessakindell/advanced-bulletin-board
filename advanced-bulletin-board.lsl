@@ -1,3 +1,5 @@
+//Version 7.1
+
 list Line1=["Use the NEXT and BACK buttons to navigate messages."];
 list Line2=["If you want to create your own message,"];
 list Line3=["select the NEW button at the bottom."];
