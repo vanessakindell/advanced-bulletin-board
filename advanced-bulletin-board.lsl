@@ -1,4 +1,4 @@
-//Version 7.1
+//Version 7.2
 
 list Line1=["Use the NEXT and BACK buttons to navigate messages."];
 list Line2=["If you want to create your own message,"];
@@ -349,7 +349,7 @@ state NewEntry
                 Line2 = Line2 + TempLine2;
                 Line3 = Line3 + TempLine3;
                 Line4 = Line4 + TempLine4;
-                Line5 = Line5 + llKey2Name(id);
+                Line5 = Line5 + llGetDisplayName(id);
                 post = llGetListLength(Line1)-1;
                 exportChanges();
                 state main;
